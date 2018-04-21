@@ -1,0 +1,57 @@
+.org-information > .org-address {
+	font-size: 0.9em;
+	padding: 6px 0;
+}
+
+.org-information > .org-address > a {
+	color: rgb(0, 188, 212);
+	cursor: pointer;
+	text-decoration: none;
+}
+
+.org-information .geosuggest__input-wrapper {
+}
+
+.org-information > .org-desc {
+	font-size: 1em;
+}
+.org-image-upload-button {
+	width: 50px;
+	min-width: inherit !important;
+}
+.org-information > .org-desc textarea {
+	font-size: inherit !important;
+	resize: none;
+	font-family: sans-serif;
+	color: #232323;
+	width: calc(100% - 6px);
+}
+
+.org-information > .org-name > .org-name-avatar-wrapper {
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+	align-items: center;
+}
+
+.org-information > .org-name #org-title {
+	color: rgb(255, 64, 129);
+}
+.org-information > .org-name > .edit {
+	cursor: pointer;
+}
+
+i.add-tag {
+	color: rgb(0, 188, 212);
+	font-size: 24px;
+	margin-right: 16px;
+	cursor: pointer;
+}
+i.add-tag:hover {
+	transform: scale(1.1);
+}
+
+i:hover {
+	transform: scale(1.1);
+	cursor: pointer;
+}

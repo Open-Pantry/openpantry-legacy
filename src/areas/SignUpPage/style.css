@@ -1,0 +1,243 @@
+.login-hr-container {
+    width: 100%;
+}
+
+.login-screen {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.__card-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.__card-properties {
+    border-radius: 16px !important;
+    padding: 16px 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    min-height: 480px;
+    max-height: 480px;
+}
+
+.__hr-header {
+    display: block;
+    border: none;
+    color: white;
+    height: 1px;
+    background: black;
+    background: -webkit-gradient(radial, 50% 50%, 0, 50% 50%, 150, from(#000), to(#fff));
+    margin: 12px 0;
+}
+
+.login-goback {
+    color: white;
+    padding-top: 16px;
+    padding-left: 16px;
+    text-shadow: 1px 0px 1px #ccc, 0px 1px 1px black;
+    cursor: pointer;
+    position: absolute;
+    transition: .5s;
+}
+
+.login-goback:hover {
+    font-size: 17px;
+    transition: .5s;
+}
+
+.__formcard-signup-container {
+    width: 350px;
+    min-height: 502px;
+    max-height: 502px;
+    display: flex;
+    flex-direction: column;
+}
+
+.__newOrg-form-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 8px;
+}
+
+.__newOrg-form-wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.__newOrg-form-wrapper .__newOrg-credentials-container,
+.__newOrg-information-container {
+    margin-left: 8px;
+    margin-right: 8px;
+}
+
+.__newOrg-form-buttons {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    width: 100%;
+    margin-top: 8px;
+}
+
+.__newOrg-form-button {
+    width: 100%;
+}
+
+.__newOrg-credentials-container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.__newOrg-information-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+}
+
+.__vertical-rule {
+    display: block;
+    border: none;
+    color: white;
+    width: 3px;
+    background: black;
+    background: -webkit-gradient(radial, 50% 50%, 0, 50% 50%, 150, from(#0401016b), to(#fff));
+    margin: 12px 0;
+}
+
+.__newOrg-logo-upload {
+    cursor: pointer;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    width: 100%;
+    opacity: 0;
+    z-index: 100;
+}
+
+.image-upload-button {
+    z-index: 4;
+    margin-top: 8px;
+}
+
+.organization-card-preview {
+    height: 100%;
+    margin-top: 8px;
+    padding: 4px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.__information-preview {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.__information-preview b {
+    font-size: .9em;
+}
+
+.__information-preview i {
+    max-width: 150px;
+    font-size: .8em;
+}
+
+.__information-preview div {
+    border-bottom: 1px solid #2323233d;
+    font-size: .8em;
+    width: 80%;
+}
+
+
+/* React GeoSuggest Style Overrdies */
+
+.geosuggest {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.geosuggest__input-wrapper {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.geosuggest__input-wrapper input {
+    height: 50%;
+    font-size: 16px;
+}
+
+.geosuggest__suggests {
+    position: absolute;
+    max-height: 25em;
+    padding: 0;
+    margin-top: -1px;
+    background: #fff;
+    border: 2px solid #267dc0;
+    border-top-width: 0;
+    overflow-x: hidden;
+    overflow-y: auto;
+    list-style: none;
+    z-index: 5;
+    max-width: 100%;
+}
+
+.geosuggest__item {
+    font-size: 18px;
+    font-size: 1rem;
+    padding: .5em .65em;
+    cursor: pointer;
+}
+
+.geosuggest__item:hover {
+    background: lightgrey;
+}
+
+.geosuggest__suggests--hidden {
+    max-height: 0;
+    overflow: hidden;
+    border-width: 0;
+}
+
+@media(max-widtH:385px) {
+    .__formcard-login-container {
+        width: auto;
+    }
+    .__formcard-signup-container {
+        width: auto;
+        min-height: auto;
+        max-height: inherit;
+    }
+    .__formcard-signup-container span:nth-of-type(2) {
+        display: none;
+    }
+    .__card-properties {
+        min-height: inherit;
+        max-height: inherit;
+        padding: 0;
+    }
+    .__login-header {
+        padding-left: 6px;
+        padding-right: 6px; 
+        text-align: center;
+    }
+    .__login-form-buttons-wwrapper{
+        padding-bottom:14px;
+    }
+}

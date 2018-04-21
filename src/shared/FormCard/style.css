@@ -1,0 +1,29 @@
+.__login-header {
+    margin-bottom: 16px;
+    display: flex;
+    justify-content: center;
+}
+
+.__logo-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.loading-bar-wrapper {
+    width: 100%;
+    flex: 1;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.__loading-bar-text {
+    color: white;
+    background: rgb(0, 188, 212);
+    margin-top: 20px;
+    padding: 4px 8px;
+    border-radius: 33px;
+}

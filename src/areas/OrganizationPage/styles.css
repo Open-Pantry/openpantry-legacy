@@ -1,0 +1,99 @@
+.organization-container-wrapper{
+    height:100%;
+    display:flex;
+    flex-direction:column;
+}
+
+.organization-container-wrapper > .organization-container {
+	background-color: rgb(0, 188, 212);
+	display: flex;
+    justify-content: center;
+    flex:1;
+}
+.organization {
+    width: 100%;
+	justify-content: center;
+	display: flex;
+	flex-direction: row;
+}
+
+.organization > .org-column{
+    display:flex;
+    flex-direction: column;
+}
+
+.organization > .org-col-lg{
+    width:66%;
+}
+.organization > .org-col-sm{
+    width:34%;
+}
+@media(max-width:800px){
+	.organization > .org-col-lg{
+    width:100%;
+}
+}
+/* Just Testing Panel Size */
+.organization > .org-column > .org-information{
+}
+.organization > .org-column > .org-products{
+    flex:1;
+}
+.organization > .org-column > .org-events{
+    height:50%;
+}
+.organization > .org-column > .org-members{
+    height:50%;
+}
+/* */
+
+.organization > .org-column > .org-box {
+    position: relative;
+	display: flex;
+	flex-direction: column;
+    background-color: #fff;
+	border-radius: 8px;
+	padding: 16px;
+	margin: 8px;
+	box-shadow: 1px 1px 12px #0D47A1;
+}
+
+.org-box > .org-name {
+	font-size: 2em;
+	display: flex;
+	justify-content: space-between;
+	color: rgb(255, 64, 129);
+}
+.org-box > .org-name a {
+	display: flex;
+	align-items: flex-start;
+}
+.org-box {
+	padding: 4px;
+}
+
+.__org-slider-wrapper{
+
+}
+
+@media (max-width: 800px) {
+	.organization .org-box.tab-wrapper {
+		padding:0;
+	}
+	.org-name.org-section-label {
+		display: none;
+	}
+	.org-box.tab-wrapper {
+		max-height: 600px;
+		overflow-y: auto;
+	}
+	.org-name-container {
+		justify-content: flex-end;
+	}
+}
+
+@media(max-width:500px){
+	.organization-container-wrapper{
+		height:auto;
+	}
+}

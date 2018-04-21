@@ -1,0 +1,52 @@
+.questionblock-container {
+    border-bottom: 1px solid white;
+    transition: all .5s ease;
+    margin:4px;
+    padding:4px;
+    display:flex;
+    flex-direction: column;
+    align-content: center;
+}
+
+.__questionblock-question-wrapper {
+    color: white;
+    display: flex;
+    font-size:18px;
+    flex-direction: row;
+    align-content: center;
+    transition: .3s;    
+}
+.__questionblock-question-wrapper:hover{
+    color:rgb(255, 64, 129);
+    transition: .3s;
+}
+.__questionblock-question-text{
+    align-self:center;
+    padding-left:16px;
+    cursor:pointer
+}
+
+.__questionblock-answer-contents{
+    margin-top:16px;
+    margin-bottom:8px;
+    color:white;
+}
+
+.__questionblock-answer-contents ul {
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+.help-link {
+    text-decoration: underline;
+    color: rgb(255, 64, 129);
+    cursor: pointer;
+}
+
+.__question-hidden {
+    height: 0;
+    display:none;
+}
+.expand-question{
+    cursor:pointer;
+}

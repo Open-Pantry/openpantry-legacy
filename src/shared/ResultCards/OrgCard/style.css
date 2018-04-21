@@ -1,0 +1,135 @@
+.orgCard-paper-wrapper {
+    transition: all .3s ease-out;
+    max-height: 300px;
+}
+
+.orgCard-hover:hover {
+    transform: translate(0, -1px);
+}
+
+.__orgCard-title-header {
+    padding-left: 15px;
+    padding-right: 4px;
+    padding-top: 4px;
+    cursor:pointer;
+    border-top-right-radius: 10px;
+    z-index: 1;
+    height:34px;
+    min-width:140px;
+    position: relative;
+    left:-9px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-self: center;
+    background:white;
+        box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 10px, rgba(0, 0, 0, 0.23) 0px 3px 10px;
+}
+
+
+.__orgCard-container {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    margin: 6px;
+    margin-top: 0;
+    overflow: hidden;
+    padding-bottom: -6px;
+}
+
+.__orgCard-header {
+    display: flex;
+    flex: 0 0 auto;
+    margin-bottom: -16px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.__orgCard-header-text-wrapper {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    position: relative;
+    top: 18px;
+    margin-top:-18px;
+}
+.__orgCard-map-icon{
+    cursor:pointer;
+}
+.__orgCard-map-icon:hover{
+    transform: translate(0, -1px);
+}
+.__orgCard-header-text-container{
+    display:flex;
+        flex-direction: row;
+    justify-content: center;
+}
+
+.__orgCard-location {
+    display: flex;
+    flex-direction: row;
+    cursor:pointer;
+    font-size: 12px;
+    color: rgb(0, 188, 212);
+}
+
+.__orgCard-contents {
+    flex: 1 1 auto;
+    margin-top: 6px;
+}
+.__orgCard-contents-description{
+    cursor:pointer;
+    max-height: 55px;
+    overflow:hidden;
+}
+
+.orgCard-horizontal-rule {
+    width: 100%;
+    display:flex;
+    border: 1px solid rgb(0, 188, 212);
+}
+
+.__orgCard-chip-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    flex-wrap:wrap;
+    height:30px;
+}
+
+.orgCard-chip-item {
+    display: flex;
+    font-size: 10px !important;
+    background: purple;
+}
+
+/*  Classic Styling */
+.__orgCard-classic-location{
+    color:#006621;
+    font-size:14px;
+    cursor:pointer;
+}
+
+.__orgCard-classic-title{
+    color:#1a0dab;
+    cursor:pointer;
+}
+.__orgCard-classic-info{
+    font-size:14px;
+    color:#545454;
+}
+.__orgCard-classic-tags{
+    display:flex;
+    flex-direction: row;
+    font-size:12px;
+    color:#545454;
+}
+.__orgCard-classic-tags-item > span{
+    font-weight: bold;
+    cursor:pointer;
+}
+.__orgCard-chip-container > .base-chip-container{
+    cursor:pointer;
+}

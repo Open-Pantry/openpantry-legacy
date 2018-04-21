@@ -1,0 +1,29 @@
+.app-search-page{
+    height:100%;
+    background:white;
+    display:flex;
+    flex-flow:column;
+}
+.app-navbar-search{
+    flex:0 0  auto;
+}
+
+.__app-search-content{
+    flex: 1 1 auto;
+    flex-flow:column;
+    background: #e4e4e4;
+}
+.__searchpage-scroll-up{
+    display:flex;
+    flex-direction:row;
+    justify-content: flex-end;
+    padding-right:32px;
+    padding-bottom:16px;
+}
+.__searchpage-scroll-wrapper{
+    background:rgb(0, 188, 212);
+    border-radius: 20px;
+    cursor:pointer;
+    transition:.3s;
+}
+

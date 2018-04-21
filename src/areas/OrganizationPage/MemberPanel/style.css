@@ -1,0 +1,39 @@
+.org-members > .org-member-list {
+	max-height: 800px;
+	overflow-y: auto;
+}
+.org-members > .org-member-list > .member-container{
+	margin-bottom: 8px;
+	padding: 8px;
+	border: 1px solid #e4e4e4;
+	border-radius: 4px;
+	box-shadow: 1px 1px 4px #e4e4e4;
+	display:flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+.__member-status-container{
+
+}
+.__member-info-name{
+	display:flex;
+	flex-direction: row;
+	align-items:center;
+}
+.__member-info-name > a{
+	text-decoration: none;
+	
+}
+.__member-info-name > a > i{
+	padding-left:4px;
+	font-size:18px;
+	color:#616161;
+}
+
+.__member-status-container > .__admin-status{
+    color:rgb(255, 64, 129);
+}
+.__member-status-container > .__member-status{
+	color: rgb(0, 188, 212);
+}

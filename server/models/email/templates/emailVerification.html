@@ -1,0 +1,32 @@
+<!doctype html>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:v="urn:schemas-microsoft-com:vml" xmlns:o="urn:schemas-microsoft-com:office:office">
+
+<head>
+    <!-- NAME: 1 COLUMN -->
+    <!--[if gte mso 15]>
+		<xml>
+			<o:OfficeDocumentSettings>
+			<o:AllowPNG/>
+			<o:PixelsPerInch>96</o:PixelsPerInch>
+			</o:OfficeDocumentSettings>
+		</xml>
+		<![endif]-->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>{{SUBJECT}}</title>
+    <style type="text/css">
+        body{
+            background: #232323;
+            color:white;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <h1>Verfiy Your Email: {{EMAIL}}</h1>
+        <a target="__blank" href="http://localhost:3000/login?orgID={{ORGID}}&email={{EMAIL}}&token={{TEMPPASSWORD}}">Verify Email</a>
+    </div>
+</body>
+
+</html>

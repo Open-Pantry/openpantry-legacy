@@ -1,0 +1,98 @@
+.__formcard-login-container{
+    width:350px;
+    min-height: 502px;
+    max-height: 502px;
+        display: flex;
+    flex-direction: column;
+
+}
+
+.login-screen{
+    height:100%;
+    display:flex;
+    flex-direction:column;
+    justify-content: flex-end;
+    background: rgb(0, 188, 212);
+}
+.__card-container{
+    display:flex;
+    flex: 1 1 auto;
+    flex-direction:column;
+    justify-content: space-around;
+    align-items: center;
+}
+.__card-properties{
+    border-radius:16px !important;
+    padding:16px 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    min-height: 480px;
+    max-height: 480px;
+}
+
+
+.__hr-header{
+    display:block;
+    border:none;
+    color:white;
+    height:1px;
+    background:black;
+    background: -webkit-gradient(radial, 50% 50%, 0, 50% 50%, 150, from(#000), to(#fff));
+    margin:12px 0;  
+}
+.login-goback{
+    color:white;
+    padding-top:16px;
+    padding-left:16px;
+    text-shadow: 
+    1px 0px 1px #ccc, 0px 1px 1px black;
+    cursor: pointer;
+    position: absolute;
+    transition:.5s;
+}
+.login-goback:hover{
+    font-size:17px;
+    transition:.5s;
+    
+}
+
+
+
+
+.__login-form-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction:column;
+    padding:0;
+    position: relative;
+    top: -23px;
+}
+
+.__login-form-buttons{
+    display:flex;
+    justify-content: center;
+    flex-direction: column;
+    align-self: center;
+    align-items: center;
+    width:100%;
+    position: relative;
+    top: 18px;
+    margin-bottom:0;
+}
+.__login-form-buttons-wwrapper{
+    width:256px;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.__login-form-button{
+    width:100%;
+}
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+input:-webkit-autofill:active {
+    transition: background-color 5000s ease-in-out 0s;
+}

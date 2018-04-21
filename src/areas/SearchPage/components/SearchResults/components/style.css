@@ -1,0 +1,50 @@
+/* Event Modal Styles */
+.__event-modal-container{
+    width:100%;
+}
+.__event-modal-container > .__event-modal-header{
+    width:100%;
+    font-size:20px;
+    color:#232323;
+    border-bottom:2px solid rgb(0, 188, 212);    
+
+    display:flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.__event-modal-container > .__event-modal-header > .__event-hosted-by{
+    font-size:16px;
+    color:rgb(0, 188, 212); 
+    cursor:pointer;
+    transition: .3s
+}
+.__event-modal-container > .__event-modal-header > .__event-hosted-by:hover{
+    transform: translate(0, -1px);
+    transition: .3s
+}
+
+.__event-modal-container > .__event-dates-container{
+    border-bottom:2px solid rgb(255,64,129);
+    display:flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    margin-top:8px;
+    padding-bottom:8px;
+}
+
+.__event-modal-container > .__event-dates-container > .__event-dates-headers{
+    display:flex;
+    flex-direction: column;
+}
+.__event-modal-container > .__event-dates-container > .__event-dates-times{
+    display:flex;
+    flex-direction: column;
+}
+
+
+/* Product Modal Styles */
+
+   /* blue rgb(0, 188, 212);
+      pink rgb(255, 64, 129);
+    */

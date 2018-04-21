@@ -1,0 +1,8 @@
+.base-chip-container{
+    font-size:10px;
+    padding:4px 6px;
+    background:lightgrey;
+    margin:4px;
+    border-radius:16px;
+    cursor:pointer;
+}

@@ -1,0 +1,221 @@
+.App-logo {
+    animation: App-logo-spin infinite 20s linear;
+    height: 80px;
+}
+
+.App-header {
+    background-color: #222;
+    height: 150px;
+    padding: 20px;
+    color: white;
+}
+
+.App-title {
+    font-size: 1.5em;
+}
+
+.App_Header_Title {
+    color: white !important;
+}
+
+.app-navbar-search {
+    padding-top: 12px;
+    background: #fafafa;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    border-top: 2px solid rgb(0, 188, 212);
+    position: relative;
+    bottom: 0px;
+}
+
+.navbar-search-alt {
+    min-height:28px;
+    padding-top: 12px;
+    padding-bottom:12px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    border-top: 2px solid rgb(0, 188, 212);
+    position: relative;
+    bottom: 0px;
+}
+
+.__top-search-wrapper {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    align-items: flex-start;
+    justify-content: center;
+    align-self: center;
+    height: 44px;
+}
+
+.__top-search-wrapper>div {
+    width: 100%;
+    max-width: 520px;
+}
+
+.__top-search-logo {
+    margin-left: 16px;
+    margin-right: 32px;
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+    color: white;
+    align-content: center;
+    align-items: center;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.__top-search-logo img {
+    width: 140px;
+    cursor:pointer;    
+}
+
+.landing-login-container {
+    display: flex;
+    align-self: center;
+    padding-left: 20px;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    height: 100%;
+}
+
+.landing-login-container>img {
+    width: 100px;
+    display: none;
+}
+
+.landing-login-container  > div:nth-of-type(2) {
+    display: none !important;
+}
+
+
+.__landing-header-map-text {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    padding-right: 4px;
+    align-items: center;
+    color: white;
+    transition: .5s;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.__landing-header-map-text:hover {
+    font-weight: 450;
+    transition: .5s;
+    font-size: 16.5px;
+}
+
+.__landing-header-app-bar {
+    margin-right: 24px;
+}
+
+.landing-login-button-initial,
+.landing-login-button-search {
+    width: 10%;
+}
+
+.landing-login-button-initial {
+    margin-right: 16px;
+    max-width:88px;
+    
+}
+.landing-login-button-initial > button{
+    max-width:88px;
+}
+
+.landing-login-button-search {
+    margin-right: 24px;
+}
+
+.__top-search-wrapper>div>button {
+    opacity: 1 !important;
+}
+
+
+/* Drawer styles */
+
+.__app-drawer-container {
+    height: auto !important;
+}
+
+.__drawer-header-container {
+    border-top: 2px solid rgb(0, 188, 212);
+    height: 108px;
+    background: #fafafa;
+    border-bottom: 1px solid #d4d4d4;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.__drawer-header-text {
+    padding-top: 10px;
+    font-size: 14px;
+}
+
+
+
+/* Drawer styles */
+
+@media(max-width:850px) {
+    .__top-search-logo img {
+        width: 82px;
+        cursor:pointer;
+    }
+    .__top-search-logo {
+        margin-right: 8px;
+    }
+}
+
+@media(max-width:630px) {
+    .landing-login-container {
+        justify-content: space-between;
+        padding-left: 0;
+        margin-bottom: 16px;
+        width: 100%;
+    }
+    .__landing-header-app-bar {
+        padding-left: 16px;
+        margin-left:16px;
+    }
+    .landing-login-container>img {
+        display: inline-block;
+        cursor:pointer;        
+    }
+    .landing-login-container div:nth-of-type(2) {
+        display: inline-block !important;
+    }
+    .app-navbar-search {
+        flex-direction: column-reverse;
+    }
+    .__top-search-logo {
+        display: none;
+    }
+    .organization-container-wrapper .__top-search-logo{
+        display:inline-block !important;
+    }
+    .about-page-container .__top-search-logo{
+        display:inline-block !important;
+    }
+    .app-help-page-container .__top-search-logo{
+        display:inline-block !important;
+    }
+    .__top-search-wrapper {
+        width: calc(100% - 8px);
+        padding-left: 0;
+        align-items:center;
+    }
+    .__top-search-wrapper > div{
+        max-width:auto !important;
+    }
+}
+

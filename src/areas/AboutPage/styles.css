@@ -1,0 +1,36 @@
+.about-page-container{
+    display:flex;
+    flex-direction: column;
+    height:100%;
+}
+
+.about-page-container > .__about-page-content-wrapper{
+    flex:1;
+    width:75%;
+    align-self: center;
+    margin-top:16px;
+    margin-bottom:16px;
+    border:1px solid #d4d4d4;
+    background:#fafafa;
+    color:#232323;
+    border-radius:32px;
+
+}
+
+.about-page-container > .__about-page-content-wrapper > .__about-page-tabs{
+    border-radius:16px;
+}
+.__about-page-tabs-info p{
+    line-height:30px;
+}
+.__about-page-tabs-info{
+    padding:16px;
+}
+.__about-page-tabs-info h2{
+    color:rgb(255, 64, 129);}
+
+.__about-profiles{
+    display:flex;
+    flex-direction: row;
+    
+}
